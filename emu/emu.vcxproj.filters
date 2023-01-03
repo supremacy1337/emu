@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\client\client.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>stdafx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\client\client.hpp">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdafx.hpp">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\console.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\generator.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\client\packet.hpp">
+      <Filter>client</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{c7a892a5-9834-45c0-8e28-246637804f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{72731403-8440-4ba9-904d-bd703780f560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{b1e180ca-ed2d-4bb4-86dc-7c3a7335b681}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
